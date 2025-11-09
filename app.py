@@ -61,7 +61,17 @@ def steady_state_k(params, k0=1.0):
 # ----------------------------
 st.set_page_config(page_title="ECON7718 OLG — Q1–Q10", layout="wide")
 st.title("ECON7718: OLG with Fiscal Policy — Interactive (Questions 1–10)")
-st.title("Erfan Zarafshan, Ph.D. Student in Economcis at Louisiana State University")
+
+st.markdown(
+    """
+    <p style="text-align:center; font-size:18px;">
+    <em>Created by <strong>Erfan Zarafshan</strong><br>
+    PhD Student in Economics, Louisiana State University</em>
+    </p>
+    """,
+    unsafe_allow_html=True
+)
+
 
 with st.sidebar:
     st.header("Global Parameters")
