@@ -1,6 +1,6 @@
 # app.py
 # ECON7718 — OLG with Fiscal Policy: Q1–Q10 Interactive
-# Streamlit app for figures, sliders, CSV/Excel downloads, and LaTeX explanations.
+# Streamlit app for figures, sliders, CSV/Excel downloads.
 
 import io
 import numpy as np
